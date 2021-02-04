@@ -1,0 +1,13 @@
+body {
+    background: url(images/bg-image.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Kanit', sans-serif;
+}
+.full-weather-form{
+    background-color: rgba(11, 11, 160, 0.253);
+}
+.bg-color-data{
+    background-color: rgba(240, 248, 255, 0.144);
+    border-bottom: 4px solid rgb(231, 189, 2);
+}

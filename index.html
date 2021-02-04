@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>City Weather App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Google font link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--external style sheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container full-weather-form shadow rounded p-3 mt-3 w-75">
+        <form class="col-md-6 m-auto py-4 w-50">
+            <h1 class="text-center text-light p-2 ">Now Weather Your City</h1>
+            <div class="input-group mb-3 ">
+
+                <input id="input-data" type="text" class="form-control" placeholder="Enter Your City Name ...">
+                <div class="input-group-append">
+                    <button id="search-btn" onclick="calledWeather()" type="button" class="btn btn-warning">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class=" weather-status bg-color-data mx-auto rounded shadow p-3 w-50 text-white  text-center">
+            <img class="bg-warning rounded" id="weather-icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 id="city-name">Dhaka</h1>
+            
+            <h3><span id="temperature">38.06</span>&deg;C</h3>
+            <h1 id="condition" class="lead">Clouds</h1>
+
+        </div>
+    </div>
+    <!--External JS Code Link-->
+    <script src="script.js"></script>
+</body>
+
+</html>
